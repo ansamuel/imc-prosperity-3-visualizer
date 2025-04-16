@@ -165,7 +165,7 @@ class Trader:
           {/* prettier-ignore */}
           <Text>
             IMC Prosperity 3 Visualizer is a visualizer for <Anchor href="https://prosperity.imc.com/" target="_blank" rel="noreferrer">IMC Prosperity 3</Anchor> algorithms.
-            Its source code is available in the <Anchor href="https://github.com/jmerle/imc-prosperity-3-visualizer" target="_blank" rel="noreferrer">jmerle/imc-prosperity-3-visualizer</Anchor> GitHub repository.
+            Its source code is available in the <Anchor href="https://github.com/ansamuel/imc-prosperity-3-visualizer" target="_blank" rel="noreferrer">ansamuel/imc-prosperity-3-visualizer</Anchor> GitHub repository.
             Load an algorithm below to get started.
           </Text>
         </HomeCard>
