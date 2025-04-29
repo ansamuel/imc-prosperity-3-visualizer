@@ -20,6 +20,7 @@ function getLimit(algorithm: Algorithm, symbol: ProsperitySymbol): number {
     VOLCANIC_ROCK_VOUCHER_10000: 200,
     VOLCANIC_ROCK_VOUCHER_10250: 200,
     VOLCANIC_ROCK_VOUCHER_10500: 200,
+    MAGNIFICENT_MACARONS: 75,
   };
 
   if (knownLimits[symbol] !== undefined) {
@@ -67,7 +68,7 @@ export function PositionChart({ symbols }: PositionChartProps): ReactNode {
 
     // We offset the position color by 1 to make it line up with the colors in the profit / loss chart,
     // while keeping the "Total" line in the profit / loss chart the same color at all times
-    colorIndex: i + 1,
+    colorIndex: (i + 1) % 10,
   }));
 
   return <Chart title="Positions (% of limit)" series={series} min={-100} max={100} />;
